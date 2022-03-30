@@ -1,0 +1,117 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    background-image: url(https://img.freepik.com/free-vector/white-abstract-background-design_23-2148825582.jpg?t=st=1648657051~exp=1648657651~hmac=c98d17df801a749c84e7940a55ca7b2e55b61af2c5dc34035f42a4457e528254&w=900);
+}
+header {
+    position: fixed;
+    top: 0;
+    z-index: 100;
+    width: 100%;
+    line-height: 0;
+    color: #fff;
+    background: rgba(96, 143, 208, 0.9);
+}
+  
+header .container {
+    width: 100%;
+    margin: 0;
+    padding: 0 0 0 30px;
+    line-height: 70px;
+}
+
+header .logo {
+    margin: 0;
+    padding: 0;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: left;
+}
+  
+
+  header .header-left a {
+    color: #fff;
+  }
+  
+
+.calculator {
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 120px;
+    width: 350px;
+}
+
+.calculator-screen {
+    width: 100%;
+    text-align: right;
+    font-size: 38px;
+    padding: 25px 20px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border-radius: 2px 20px;
+    background: #0e4c73;
+    color: #fff;
+    border: none;
+    margin: 3px;
+}
+
+.row {
+    display: flex;
+}
+
+button {
+    height: 80px;
+    background-color: gray;
+    border-radius: 5px 22px;
+    margin: 2px;
+    font-size: 32px;
+    color: #fff;
+    width: 25%;
+    outline: none;
+    font-size: 25px;
+    
+}
+
+.number{
+    border-radius: 10px;
+}
+
+.calculator-keys {
+    width: 100%;
+	height: 440px;
+	padding: 10px;
+    border: 10px;
+	border-radius: 15px;
+	background:	#DADDFC;
+	line-height: 1em;
+    box-shadow: 6px 9px #396EB0;
+	user-select: none;
+    margin-bottom: 50px;
+}
+
+.all-clear, .zero-btn {
+    width: 50%;
+}
+
+.operator, .equal-sign, .percentage{
+    background-color: #02A8A8;
+}
+
+button:hover {
+    background-color: darkgray;
+}
+
+.operator:hover, .equal-sign:hover, .percentage:hover {
+    background-color: #488FB1;
+}
+
+.all-clear, .decimal {
+    background-color: #F57665;
+}
+
+.all-clear:hover, .decimal:hover {
+    background-color: #BE6283;
+}
+
+
